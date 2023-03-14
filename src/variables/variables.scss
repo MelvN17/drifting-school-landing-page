@@ -1,6 +1,33 @@
-@mixin flex(){
+
+
+//FONTS
+@mixin logoFont(){
+    font-family: "MuseoModerno", sans-serif;
+}
+
+@mixin textFont($fontSize){
+    font-family: "Montserrat";
+    font-size: $fontSize;
+}
+
+@mixin paragraphFont($fontSize){
+    font-family: "Poppins", sans-serif;
+    font-size: $fontSize;
+}
+
+//COLORS
+
+
+
+//SIZES
+
+
+
+
+//GENERAL
+@mixin flex($j-content){
     display: flex;
-    justify-content: center;
+    justify-content: $j-content;
     align-items: center;
 }
 

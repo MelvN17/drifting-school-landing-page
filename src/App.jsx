@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 import './App.scss'
+import AboutUsPage from './components/Pages/AboutUsSection/AboutUsPage'
+import HeroPage from './components/Pages/HeroSection/2.MainSection/HeroPage'
 
 function App() {
 
   return (
     <div className="App">
-     <h1>HELLO WORLD!</h1>
+      <HeroPage />
+      <AboutUsPage />
+      <AboutUsPage />
     </div>
   )
 }
